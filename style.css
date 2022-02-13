@@ -1,0 +1,71 @@
+html
+{
+    box-sizing: border-box;
+    
+}
+
+
+body
+{
+    
+}
+
+.carouselCustom > .carousel-item 
+{
+    position: relative;
+    height: 90vh;
+    
+}
+
+.frame
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+    z-index: 30;
+    background: linear-gradient(to bottom, transparent 30%, black 100%);
+   
+   
+}
+
+.textInFrame
+{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+}
+
+.textInFrame > button
+{
+    font-size: 1rem;
+    border:3px solid white;
+
+}
+
+.carouselCustom > .carousel-item >  img
+{
+    height: 100%;
+    z-index: 20;
+    object-fit: cover;
+    border-top: 4px solid rgb(241, 203, 203);
+   
+}
+
+.card
+{
+    text-align: center;
+}
+
+.card > img
+{
+    min-height:15rem;
+
+    
+}
+
