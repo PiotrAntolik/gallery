@@ -1,36 +1,28 @@
-html
-{
+html {
     box-sizing: border-box;
-    
+
 }
 
+/* KARUZELA OD NAVBAR */
 
-body
-{
-    
-}
-
-.carouselCustom > .carousel-item 
-{
+.carouselCustom>.carousel-item {
     position: relative;
     height: 90vh;
-    
+
 }
 
-.frame
-{
+.frame {
     position: absolute;
     height: 100%;
     width: 100%;
-   
+
     z-index: 30;
     background: linear-gradient(to bottom, transparent 30%, black 100%);
-   
-   
+
+
 }
 
-.textInFrame
-{
+.textInFrame {
     text-align: center;
     color: white;
     font-size: 2rem;
@@ -41,31 +33,39 @@ body
     z-index: 50;
 }
 
-.textInFrame > button
-{
+.textInFrame>button {
     font-size: 1rem;
-    border:3px solid white;
+    border: 3px solid white;
 
 }
 
-.carouselCustom > .carousel-item >  img
-{
+.carouselCustom>.carousel-item>img {
     height: 100%;
     z-index: 20;
     object-fit: cover;
     border-top: 4px solid rgb(241, 203, 203);
-   
+
 }
 
-.card
-{
+/* SWIPER */
+
+
+.swiper {
+    width: 100%;
+    height: 25rem;
+
+}
+
+.swiper-slide {
     text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 75%;
 }
 
-.card > img
-{
-    min-height:15rem;
-
-    
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
